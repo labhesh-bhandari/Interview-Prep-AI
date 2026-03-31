@@ -1,5 +1,6 @@
 const { GoogleGenAI } = require('@google/genai');
 const pdfParse = require('pdf-parse');
+console.log('pdfParse:', pdfParse);
 const Session = require('../models/Session');
 const Question = require('../models/Question');
 const { resumeQuestionsPrompt } = require('../utils/prompts');
